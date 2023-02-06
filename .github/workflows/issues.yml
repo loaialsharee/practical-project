@@ -17,4 +17,4 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Print Data
-        run: echo ${{github}}
+        run: echo ${{toJson(github)}}
